@@ -1,0 +1,20 @@
+body {
+    line-height: 2;
+}
+.parent {
+	float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.truncate {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.heading {
+	font-size: 24px;
+    font-weight: bold;
+}
